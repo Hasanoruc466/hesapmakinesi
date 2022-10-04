@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_nav"
+    app:startDestination="@id/klasikFragment">
+
+    <fragment
+        android:id="@+id/klasikFragment"
+        android:name="com.example.hesapmakinesi.KlasikFragment"
+        android:label="fragment_klasik"
+        tools:layout="@layout/fragment_klasik" />
+    <fragment
+        android:id="@+id/programlayiciFragment"
+        android:name="com.example.hesapmakinesi.ProgramlayiciFragment"
+        android:label="fragment_programlayici"
+        tools:layout="@layout/fragment_programlayici" />
+    <fragment
+        android:id="@+id/dovizFragment"
+        android:name="com.example.hesapmakinesi.DovizFragment"
+        android:label="fragment_doviz"
+        tools:layout="@layout/fragment_doviz" />
+</navigation>

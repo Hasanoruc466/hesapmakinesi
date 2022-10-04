@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DovizFragment">
+
+    <Spinner
+        android:id="@+id/spinnerOther"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBaseRate" />
+
+    <Button
+        android:id="@+id/buttonDovizTemizle"
+        android:layout_width="137dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="C"
+        android:textColor="#F4511E"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonDovizSifir"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButtonDovizSil"
+        android:layout_width="137dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="1dp"
+        android:backgroundTint="#FFFFFF"
+        android:src="@drawable/delete"
+        android:tint="#C0CA33"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonDovizSifir" />
+
+    <Button
+        android:id="@+id/buttonDoviz8"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="8"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonDoviz5"
+        app:layout_constraintEnd_toStartOf="@+id/buttonDoviz3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonDoviz1" />
+
+    <Button
+        android:id="@+id/buttonDoviz7"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="7"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonDoviz4"
+        app:layout_constraintEnd_toStartOf="@+id/buttonDoviz2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonDoviz9"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="9"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonDoviz6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonDoviz2" />
+
+    <Button
+        android:id="@+id/buttonDoviz5"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="5"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonDoviz2"
+        app:layout_constraintEnd_toStartOf="@+id/buttonDoviz3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonDoviz1" />
+
+    <Button
+        android:id="@+id/buttonDoviz4"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="4"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonDoviz1"
+        app:layout_constraintEnd_toStartOf="@+id/buttonDoviz2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonDoviz6"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="6"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonDoviz3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonDoviz2" />
+
+    <Button
+        android:id="@+id/buttonDoviz2"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="2"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonDovizSifir"
+        app:layout_constraintEnd_toStartOf="@+id/buttonDoviz3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonDoviz1" />
+
+    <Button
+        android:id="@+id/buttonDoviz3"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="3"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonDovizSifir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonDoviz2" />
+
+    <Button
+        android:id="@+id/buttonDoviz1"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="1"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonDovizSifir"
+        app:layout_constraintEnd_toStartOf="@+id/buttonDoviz2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonDovizSifir"
+        android:layout_width="137dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="0"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonDovizSil"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonDovizTemizle" />
+
+    <TextView
+        android:id="@+id/textViewBaseRate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="1"
+        android:textAlignment="textEnd"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerBase" />
+
+    <TextView
+        android:id="@+id/textViewOtherRate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="1"
+        android:textAlignment="textEnd"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerOther" />
+
+    <Spinner
+        android:id="@+id/spinnerBase"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewGuncellik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/buttonDoviz8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewOtherRate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/klasikFragment"
+        android:title="Standart" />
+    <item
+        android:id="@+id/programlayiciFragment"
+        android:title="Sayı Tabanları" />
+    <item
+        android:id="@+id/dovizFragment"
+        android:title="Döviz Kuru" />
+</menu>
